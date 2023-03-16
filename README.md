@@ -62,4 +62,4 @@ After that, the only thing left is to actually push the code to github, you can 
 
 Refresh your github window. If this now contains your file. Congratulations! You just created your first github repository!
 
-![carbon (2)](https://user-images.githubusercontent.com/28593493/225716753-fb46f8ba-185f-4b65-9186-eda436b1d435.png)
+![carbon (4)](https://user-images.githubusercontent.com/28593493/225718475-6aaaaed3-0a14-4b07-9398-8a3af16f8fda.png)
