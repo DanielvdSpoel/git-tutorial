@@ -23,7 +23,7 @@ So now that we got the boring theory out of the way. let’s start with the fun 
 ### 1) Creating a GitHub account
 If you already have a GitHub account you can skip this step and just login to your existing account instead
 
-If you go to <INSERT LINK HERE> you can create a new account, you will need to provide GitHub with a few details, solve a small puzzle and enter a verification code you got by email from them.
+If you go to https://github.com/signup you can create a new account, you will need to provide GitHub with a few details, solve a small puzzle and enter a verification code you got by email from them.
 
 After that, when it’s asking you for more details, you can just scroll down and click “Skip personalization
 Then the dashboard will open with a fancy animation and you are set! You can either minimalize or close the browser window.
@@ -35,7 +35,7 @@ First, we need to create something to upload to GitHub. Create an empty director
 
 After that, you will need to open the directory.
 In windows, open the directory and right-click and click on open in terminal
-In Linux, open the directory and click on <what the fuck should they click on>?
+In Linux, open the directory and click on open terminal here
 
 ##### Then we are running a few commands, these commands are case-sensitive so please make sure you type everything correctly
 
@@ -48,7 +48,19 @@ When you make any changes in the future, You will need to run the git add and gi
 
 ![carbon (3)](https://user-images.githubusercontent.com/28593493/225716371-3112b768-5e22-4652-90de-8f7f57545919.png)
 
-#### 3) Creating a remote repository
+#### 3) Create personal access token
+To be able to push things to github, you need to create an access token. To do this follow the following steps:
+- CLick on top right profile picture
+- click on settings in dropdown
+- Click on developer settings (bottom left)
+- CLick on Personal access token
+- CLick on Token (classic)
+- Click on generate token -> generate classic token
+- Give the token a name and check "repo"
+- CLick on generate token
+Copy the token and save it somewhere save. 
+
+#### 4) Creating a remote repository
 Log into your GitHub account.
 Click on the green “Create repository button”, or if you already have a repository, click on the “New” button in the top left
 
@@ -59,6 +71,7 @@ When you're done you can click on create a repository
 A new window will open with a bunch of commands, the only important one is the `git remote add` command. This command tells git to add a new remote to push code to. You can copy this command and execute it in your open terminal
 
 After that, the only thing left is to actually push the code to github, you can do this using the `git push origin master` command.
+This command will ask you for a username and password. You can use your github username but you must use the token you created earlier as the password
 
 Refresh your github window. If this now contains your file. Congratulations! You just created your first github repository!
 
