@@ -1,0 +1,22 @@
+
+What's git?
+- Version management
+- Prevents .finalfinal .done etc
+- timeline of changes
+
+What's github?
+- Online version of git
+- Able to backup code, add others, collab
+- compareable to office365/ word on pc
+- Danger: everything you upload can be seen and will always be there
+
+Doing it:
+- Create directory
+- create readme
+- add files to git
+- commit
+
+- log into github
+- create token (settings, dev settings, classic token)
+- create repository
+- copy link
